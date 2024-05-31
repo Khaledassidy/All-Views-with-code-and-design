@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScrollViews">
+
+
+<!--    scroll veiw howe b5le shshe ta3mel scroll tenzal w tetela3 2aw temshe yamen w shmel-->
+
+<!--    fa howe naw3en scrollviewhorizantal,scollviewvertical-->
+
+<!-- scrollviewhorizantal:bt5lek trou7 yamen w shmel b shshe  -->
+
+<!--  scollviewvertical:bt5lek tetal3 w tenzal b shshe  -->
+
+
+<!--    w fe nested scroll view wa2t ykoun fe scroll view w b2albo fe scroll view-->
+
+<!--    ya3ne iza 7atet scroll view w b2labo fe views w haw l views t5ato 7odod shshe ya3mel scroll yseer fe tenzal la ta7t-->
+
+
+<!--    scroll view elo ta3moul 5as ya3ne mamno3 zeed fe b2albo akatr mn 3onsour -->
+<!--    ya3ne iza 7atet scroll view b2labo linear layout w rje3t 7atet linear layout b2alb l scroll view la 7aye2balo -->
+<!--    ya3ne enta zeed scroll view w 7ot 3onsour wa7ad mtl exmple linear layout w zeed b2lab linear layout le badak yeh 3adde ad ma badak zeed-->
+<!--    ya3ne 3ande 3anser kteer 3mel 2awl she scoll view w 7ot b2labo linear layout w b2lab linear layout 7ot haw l 3anser l kteer-->
+<!--    lesh l scroll view ma bye2bal 8eer 3onsour wa7ad l2no howe byehste8l  bas 3ala one commponnent-->
+
+
+<!--    esmple:-->
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="32dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+  </LinearLayout>
+ </ScrollView>
+
+</LinearLayout>
+

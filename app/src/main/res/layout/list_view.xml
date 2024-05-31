@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".List_View">
+
+
+<!--    3ana she esmo list view 3ebara 3an ka2eme feha data b2alba scroll bteshbah l spinnner fe te5bous 3ala aye wa7de badak-->
+<!--    bas heye list view byet3emal ma3a by coding be3aboha by coding bas hay tare2a la n3abeha mlt l spinner mnrou7 3ala file sting w mna3mel array of sting w mn7otlo ka entries b2alb l xml-->
+<!--l data ma btbyen ela iza 3mlt run lal app-->
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:entries="@array/country">
+
+    </ListView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

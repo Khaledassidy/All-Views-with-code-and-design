@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".All_Views_1"
+    tools:visibility="visible">
+
+    <!--    android:lineSpacingExtra="20sp" hayde bt7aded kameyet l spacing bel toul been text-->
+    <!--    android:typeface="sans" naw3eyet l font nafs l font famminly-->
+    <!--    android:textAllCaps="true" hayde bt5le kel l 2a7rouf capital-->
+    <!--    android:textStyle="bold|italic" textstyle bt7aded iza bold 2aw italic w feek t7out ma3 ba3doun bhay tare2a-->
+    <!--    android:textAlignment="textEnd" hayde btesta3ml 7asab lo8a iza 7atet to left 2aw right w 8ayrt lal arabic ma btet8ayar she ama iza 7zatet start 2aw end 7asb loga btetsha2lb aw alighn center bten7at bel nous-->
+    <!--    android:androidbackgroundTint="#2196F3" hayde ma bten3amal la t7out back ground attribute for background-->
+    <!--    android:gravity="center" keef text iza center atbutton etc.. ya3ne keef shakl l mo7atawa de5el text view center 2aw keef-->
+    <!--    android:drawableEnd="@android:drawable/alert_light_frame" feek r7ot soura yamen shmeel 2awl 2aw e5er l view -->
+    <!--    android:layout_gravity="center" hayde l 3anaser bel nesbe lal parent keef ya3ne kel textview l button  keel she bel center-->
+
+
+    <!--    style="@style/Widget.AppCompat.Button" bt7ded l style ta3el l button fe style jehzen masaln l button elo color 2aw ana ba3mel style elo-->
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#670E0E"
+        android:backgroundTint="#2196F3"
+        android:drawableEnd="@android:drawable/alert_light_frame"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:padding="40dp"
+        android:lineSpacingExtra="20sp"
+        android:text="Startddddd"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#6435B8"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="497dp"
+        android:background="@android:drawable/btn_dialog"
+        android:backgroundTint="#5C389D"
+        android:fontFamily="sans-serif"
+        android:text="OK"
+        android:textColor="#5B2222"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- edittext elo kteer anwa3 mtl l password plaintext email number....-->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif"
+        android:hint="enter email"
+        android:inputType="text|textEmailAddress"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <!--    android:textOff="off" bas ykoun off zheer kelemt off 3lyha-->
+    <!--    android:textOn="on" bas ykoun on zher klemt on 3lyha-->
+    <!--    android:checked="true" 2awl ma dawer l app hal bado ykoun sha8al wala metfe iza true sha8al iza false metfe-->
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:checked="true"
+        android:textOff="off"
+        android:textOn="on"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <!--    android:checked="true" 2awl ma nbalesh l app ykoun m3alam wala la2-->
+    <!--    android:enabled="false" l user bebtel bye2dar ya3mel checked 2aw la2-->
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:checked="true"
+        android:enabled="false"
+        android:text="checkbox"
+        app:layout_constraintEnd_toEndOf="@+id/toggleButton"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
+
+    <!--    la 2a3mel radio buttons lezm 7etoun b radiogroup 3ashen bas 2e2dar 2a3mel check 3a wa7de-->
+    <RadioGroup
+        android:id="@+id/rgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="pizza"></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="humgerger">
+
+        </RadioButton>
+    </RadioGroup>
+
+
+    <!--same as text view bas fene zeed heda mark checked-->
+    <!--    android:checkMark="@android:drawable/checkbox_on_background" btzeed logo ta3eel l checked-->
+    <!--    android:checked="true" bt7ota masln awal ma yefta7 l app tkoun checked-->
+
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:checkMark="@android:drawable/checkbox_on_background"
+        android:checked="true"
+        android:text="checkedtext view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
+
+<!--    eshraet loading-->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="188dp"
+        android:max="100"
+        android:progress="50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView"
+        app:layout_constraintVertical_bias="1.0" />
+
+<!--    prograss bar ta3el l loading bas bel 3ard-->
+<!--    max be7aded kam keme fe b2albo l prograss adesh b2alba 2awl ma efta7 l app exmple 50 ya3ne noso-->
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:max="100"
+        android:progress="50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgroup"
+        app:layout_constraintVertical_bias="0.0" />
+
+<!--heedd fene 2admo w raj3o metl ta3el l music l 5at ta3elo-->
+<!--    fe kamen discrete seek bar 3ebara 3an no2at interval m3ayane-->
+
+    <!--    android:numStars="4" 3adad l stars b2alb l rating bar-->
+<!--    android:rating="1" 3adad l stars le m3abeyen-->
+<!--    android:stepSize="1" keef yemshe ynot star star 2aw nous star 2aw 2 starts-->
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:max="100"
+        android:progress="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar2" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+        android:numStars="4"
+        android:rating="1"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+<!--    android:checked="true" 2awl ma yefta7 l appbt5aleha checked-->
+<!--    android:switchPadding="10dp" l space been l kelmet switch w l on off-->
+<!--    android:thumb="@android:drawable/arrow_down_float" feek t7ot logo soura heye tkoun l off w l on-->
+<!--    android:textOff="off" hayde eno bas tseer on la tezhar kelme fo2 l kabse off bas hawde l kelme ma btezhar iza ma fa3lt show text android:showText="true" -->
+<!--    android:textOn="on" hayde eno bas tseer on la tezhar kelme fo2 l kabse on bas hawde l kelme ma btezhar iza ma fa3lt show text android:showText="true"-->
+<!--    android:splitTrack="true" bya3mel fasel been dowayra 2aaw logo le 7atyto w le ba3do edema azde-->
+
+    <Switch
+        android:id="@+id/switchs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="116dp"
+        android:checked="true"
+        android:showText="true"
+        android:switchPadding="10dp"
+        android:text="switch"
+        android:textOff="off"
+        android:textOn="on"
+        android:splitTrack="true"
+        android:textStyle="bold"
+        android:thumb="@android:drawable/arrow_down_float"
+        app:layout_constraintBottom_toTopOf="@+id/ratingBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toEndOf="@+id/editText" />
+
+<!--    space heed metl l gudidlines fasel been l views-->
+    <Space
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1">
+
+    </Space>
+</androidx.constraintlayout.widget.ConstraintLayout>

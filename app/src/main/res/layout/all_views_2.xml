@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".All_Views_2">
+
+    <!--    same as button bas l button btkoun soura l m7tawa le b2alba soura-->
+    <!--    iza soura e5de kel l 7ajm w 7atet background ma7atbyen l background-->
+    <!--    fe she 3ana esmo scaletype keeef badna ykoun 7ajm soura iza soura akbar mn l contanier fene 7ot fitxy 2aw center crop 2osa mn nous etc.. android:scaleType="center"-->
+    <!--    iza bade shadow 2aw zeel lal button ma3mel elevation android:elevation="50dp" -->
+    <ImageButton
+        android:id="@+id/imgbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="53dp"
+        android:elevation="50dp"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_lock_power_off"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+<!--    resourse ta3el soura howe app:srcCompat="@drawable/ic_launcher_background"-->
+<!--    android:scaleType="fitXY" shakl soura-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="468dp"
+        android:background="#C13636"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_lock" />
+
+<!--    fene e5tar l wa2t le bade yeh-->
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.432" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

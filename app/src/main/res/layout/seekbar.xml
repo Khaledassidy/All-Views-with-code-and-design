@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeekBar">
+
+<!--    seek bar she byeshabh l progress bar bas howe editable ya3ne fe l user yet7akam fe ysezo yna2so-->
+<!--seek bar metl le bekoun bl music-->
+
+<!--    fe meno naw3een discrete w continous-->
+<!--    continous byebshe 3ade ma be2tesh ma byemshe 3ala interval m3ayane-->
+<!--    l discrete byemshe 3ala no2at m3ayane elo interval-->
+    <SeekBar
+        android:id="@+id/seekbar_program_continous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
+
+    </SeekBar>
+
+
+    <SeekBar
+        android:id="@+id/seekbar_proram_discrete"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:max="50"
+        android:progress="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/seekbar_program_continous">
+
+    </SeekBar>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

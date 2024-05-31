@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RadioButton">
+
+<!--    ta3amoul ma3 radio button bas hal mara mesh bas design kamen code-->
+<!--mtl ma mna3ref l radio button bte5od 5eyar wa7ad  bten7at kel radio  button b radio group-->
+<!--radio  group 3emel extend mn linear layout w fene et7akam feha mtl linear layout w 8ayer l oriantation-->
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/pizza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="pizza">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/humbereger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="humberger">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/sandwish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sandwish">
+
+        </RadioButton>
+
+
+    </RadioGroup>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
